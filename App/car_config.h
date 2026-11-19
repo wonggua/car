@@ -1,7 +1,7 @@
 #ifndef CAR_CONFIG_H
 #define CAR_CONFIG_H
 /* 根据实验 17 的转向条件默认黑线为低电平；上车先观察原始读数。 */
-#define TRACK_BLACK_LEVEL       0
+#define TRACK_BLACK_LEVEL       1
 #define AVOID_ACTIVE_LEVEL      0
 #define LIGHT_ACTIVE_LEVEL      0
 #define CAR_DEFAULT_SPEED       3000

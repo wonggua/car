@@ -57,12 +57,12 @@ I (wenchao_lib\user\car_ctrl.h)(0x6AFBBBD4)
 I (wenchao_lib\user\steer_sg90.h)(0x6AFBBBD4)
 I (App\car_board.h)(0x6AFBBCFA)
 I (App\car_control.h)(0x6AFC736D)
-I (App\car_config.h)(0x6AFC6E46)
+I (App\car_config.h)(0x6AFE6635)
 I (App\car_ps2.h)(0x6AFC6C82)
 F (.\App\car_control.c)(0x6AFC7396)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I App -I wenchao_lib\inc -I wenchao_lib\user -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc --c99-IE:\keil5\32\ARM\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\car_control.o --omf_browse .\objects\car_control.crf --depend .\objects\car_control.d)
 I (App\car_control.h)(0x6AFC736D)
 I (E:\keil5\32\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (App\car_config.h)(0x6AFC6E46)
+I (App\car_config.h)(0x6AFE6635)
 F (.\App\car_protocol.c)(0x6AFC736D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I App -I wenchao_lib\inc -I wenchao_lib\user -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc --c99-IE:\keil5\32\ARM\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\car_protocol.o --omf_browse .\objects\car_protocol.crf --depend .\objects\car_protocol.d)
 I (App\car_protocol.h)(0x6AFBBD36)
 I (E:\keil5\32\ARM\ARMCC\include\stdint.h)(0x6025237E)
