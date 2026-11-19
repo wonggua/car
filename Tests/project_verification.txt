@@ -1,0 +1,5 @@
+PASS: 23 project source paths; one main; no conflicting legacy IRQ files.
+PASS: HEX checksum, flash bounds, stack and Thumb reset vector.
+HEX payload=16108 bytes; SP=0x20000B00; RESET=0x08000105
+SHA256(car.hex)=b722aacef7df8bc0b11669f90098f423da17ac144ea704038edd922b5e2f42e8
+Keil: 0 errors, 0 warnings. Hardware behavior not tested.

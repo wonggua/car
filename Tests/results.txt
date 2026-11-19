@@ -1,0 +1,129 @@
+PASS boot is stopped
+PASS default speed is 3000
+PASS manual direction 1
+PASS manual direction 2
+PASS manual direction 3
+PASS manual direction 4
+PASS manual direction 5
+PASS manual direction 6
+PASS manual motion persists after 800ms
+PASS manual motion persists after 60 seconds
+PASS manual motion persists across tick wrap
+PASS persistent motion stops with 'X'
+PASS persistent motion stops with '0'
+PASS persistent motion stops with '@STOP\n'
+PASS mode change stops
+PASS center black line goes straight
+PASS left line turns left
+PASS right line turns right
+PASS lost line recovery is bounded
+PASS no line on start stays stopped
+PASS sonar mode 2 rejects no echo
+PASS mode 2 stops and looks left
+PASS mode 2 waits for settled left sample
+PASS mode 2 looks right after left sample
+PASS mode 2 recenters before turning
+PASS mode 2 waits for center echo
+PASS mode 2 chooses clearer right side
+PASS mode 2 completes bounded turn
+PASS mode 2 drives after front clears
+PASS sonar mode 4 rejects no echo
+PASS mode 4 stops and looks left
+PASS mode 4 waits for settled left sample
+PASS mode 4 looks right after left sample
+PASS mode 4 recenters before turning
+PASS mode 4 waits for center echo
+PASS mode 4 chooses clearer right side
+PASS mode 4 completes bounded turn
+PASS mode 4 drives after front clears
+PASS scanner chooses clearer left side
+PASS scanner both missing echoes stops without blind turn
+PASS stop during scan recenters and parks
+PASS combined scan excludes IR blocked side
+PASS combined turn stops for new side obstacle
+PASS center echo timeout disarms scan
+PASS left obstacle turns right
+PASS right obstacle turns left
+PASS follow far target approaches
+PASS follow near target retreats
+PASS follow deadband stops
+PASS follow lost target stops
+PASS left light steers left
+PASS RGB sequence
+PASS RGB mode never drives
+PASS distance mode stays stopped
+PASS low voltage alarms but permits motion
+PASS alarm pauses between beeps without motor lock
+PASS battery hysteresis retains warning
+PASS voltage recovery clears alarm and preserves motion
+PASS low battery beeps in RGB mode
+PASS low battery beeps when parked
+PASS invalid ADC stops
+PASS wrong system clock stops
+PASS speed frame
+PASS out of range speed rejected
+PASS select and start mode
+PASS stop frame
+PASS legacy ASCII forward
+PASS legacy raw backward
+PASS servo command parks car
+PASS servo bounds
+PASS run recenters servo
+PASS buzzer command
+PASS overflow suffix cannot become movement
+PASS timed out frame suffix discarded
+PASS two ports have independent parsers
+PASS numeric overflow rejected
+PASS immediate stop command
+PASS PS2 digital up decodes with neutral axes
+PASS PS2 analog left stick offsets
+PASS PS2 rejects absent
+PASS PS2 rejects low wire
+PASS PS2 rejects bad header
+PASS PS2 rejects truncated
+PASS PS2 rejects config mode
+PASS PS2 extended packet accepted
+PASS P selects parked PS2 mode
+PASS PS2 waits for stick neutral
+PASS PS2 dpad 16
+PASS PS2 dpad 64
+PASS PS2 dpad 128
+PASS PS2 dpad 32
+PASS PS2 release stops wheels
+PASS PS2 analog deadzone
+PASS PS2 diagonal normalized to selected speed
+PASS PS2 dpad overrides analog
+PASS PS2 invalid link stops and disarms
+PASS PS2 reconnect does not restart
+PASS PS2 stop button 1
+PASS PS2 stop button 16384
+PASS serial stop holds despite PS2 direction
+PASS PS2 cannot override manual serial motion
+PASS PS2 framed mode supported
+PASS example24 infrared command 64
+PASS example24 infrared command 25
+PASS example24 infrared command 7
+PASS example24 infrared command 9
+PASS example24 infrared command 22
+PASS example24 infrared command 13
+PASS infrared other key stops
+PASS manual servo overrides scan recenter
+PASS confirmed infrared 21 stops
+PASS O lights off preserves motion
+PASS H horn preserves motion
+PASS framed horn preserves motion
+PASS off persists through RGB mode
+PASS off preserves low battery beep
+PASS light restore resumes RGB
+PASS framed lights off
+PASS invalid light setting rejected
+PASS power on restores default lighting
+PASS infrared 12 horn preserves motion
+PASS infrared horn ends at 150ms
+PASS infrared 94 turns off RGB without stopping
+PASS Bluetooth restores lights
+PASS Bluetooth O turns off lights
+PASS Bluetooth H requests horn
+PASS infrared 21 stops after light commands
+PASS infrared horn handles tick wrap
+128 checks passed. Hardware not simulated.
