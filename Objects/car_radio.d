@@ -1,0 +1,9 @@
+.\objects\car_radio.o: App\car_radio.c
+.\objects\car_radio.o: App\car_radio.h
+.\objects\car_radio.o: E:\keil5\32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\car_radio.o: App\car_config.h
+.\objects\car_radio.o: App\car_protocol.h
+.\objects\car_radio.o: App\car_board.h
+.\objects\car_radio.o: App\car_control.h
+.\objects\car_radio.o: E:\keil5\32\ARM\ARMCC\Bin\..\include\string.h
+.\objects\car_radio.o: E:\keil5\32\ARM\ARMCC\Bin\..\include\stdio.h
